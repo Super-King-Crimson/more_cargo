@@ -2,6 +2,11 @@
 name = "more_cargo"
 version = "0.1.0"
 edition = "2021"
+# check SPDX for licenses you can put here
+# if your license isn't in SPDX, use license-file
+# You can do dual licenses with OR
+license = "MIT OR Apache-2.0" 
+description = "Super-King-Crimson's notes on Chapter 14 of the Rust Brown Book"
 
 # Hey look we're in Cargo.toml!
 [profile.dev] 

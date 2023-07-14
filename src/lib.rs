@@ -12,8 +12,21 @@ pub mod topic {
     
 As always, check docs for more info.");
     }
+
+    println!("Oh by the way make a crates.io account, \
+get your API token at https://crates.io/me/token. \
+run cargo login with your API key, \
+and you can start posting crates");
+
+    //Obligatory don't share your password- i mean crates API token
 }
+
+//For the sadists: if you want to require that all code be documented, add:
+    // #![deny(rustdoc::missing_docs)]
+//at the top of main/lib.rs
 
 pub mod build_customization;
 
 pub mod publishing_to_io;
+
+pub use publishing_to_io::convenience::something::anything::{self, Example};
