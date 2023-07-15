@@ -6,4 +6,5 @@ fn main() {
     build_customization::explain();
     publishing_to_io::explain();
     workspaces::explain();
+    install::explain()
 }

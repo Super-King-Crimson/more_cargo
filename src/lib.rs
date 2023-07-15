@@ -32,3 +32,7 @@ pub mod publishing_to_io;
 pub use publishing_to_io::convenience::something::anything::{self, Example};
 
 pub mod workspaces;
+
+pub mod install;
+
+pub mod extension;
